@@ -1,4 +1,4 @@
-# Proyecto1-TopicosTelematica
+# Proyecto1-TopicosTelematica Jeronimo Velasquez Escobar, Miguel Angel Correa, Julian Osorio Alturo
 
 # 🧾 Sistema Distribuido de Gestión de Órdenes
 
