@@ -48,6 +48,52 @@ Pasos:
 
 1. Clonar el repositorio:
 
-```bash
 git clone https://github.com/tu-usuario/proyecto-ordenes.git
 cd proyecto-ordenes
+
+Generar los archivos .pb.go para cada .proto:
+protoc --go_out=. --go-grpc_out=. proto/orders/orders.proto
+protoc --go_out=. --go-grpc_out=. proto/inventory/inventory.proto
+# Y así sucesivamente para payment y shipping
+
+Ejecutar cada microservicio, en cuatro terminales diferentes:
+go run main.go  # en orders-service
+go run main.go  # en inventory-service
+go run main.go  # en payment-service
+go run main.go  # en shipping-service
+
+Ejecutar API Gateway:
+cd api-gateway
+uvicorn main:app --reload --port 8000
+
+Probar el sistema:
+python client/client_batch.py
+
+📝 Ejemplo de payload (POST a /orders)
+
+{
+  "user_id": "u123",
+  "items": [
+    {"product_id": "a1", "quantity": 2},
+    {"product_id": "b2", "quantity": 1}
+  ],
+  "payment_method": "credit_card"
+}
+
+📁 Estructura del Proyecto
+proyecto-ordenes/
+├── orders-service/
+│   ├── main.go
+│   ├── proto/orders.proto
+│   └── logs/orders.log
+├── inventory-service/
+│   ├── main.go
+│   ├── proto/inventory.proto
+│   └── logs/inventory.log
+├── payment-service/
+├── shipping-service/
+├── api-gateway/
+│   └── main.py (FastAPI)
+├── client/
+│   └── client_batch.py
+└── README.md
