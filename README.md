@@ -22,7 +22,7 @@ Este proyecto implementa una arquitectura de microservicios basada en Go y gRPC 
 
 ---
 
-## 🧩 Microservicios
+### 🧩 Microservicios
 
 | Servicio          | Lenguaje | Funcionalidad                                   |
 |------------------|----------|--------------------------------------------------|
