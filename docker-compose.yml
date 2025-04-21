@@ -1,0 +1,72 @@
+version: '3.9'
+services:
+  orders-service:
+    build: ./orders-service
+    container_name: orders-service
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./orders-service/logs:/app/logs
+    networks:
+      - microservices_net
+
+  inventory-service:
+    build: ./inventory-service
+    container_name: inventory-service
+    ports:
+      - "50052:50052"
+    volumes:
+      - ./inventory-service/logs:/app/logs
+    networks:
+      - microservices_net
+
+  payment-service:
+    build: ./payment-service
+    container_name: payment-service
+    ports:
+      - "50053:50053"
+    volumes:
+      - ./payment-service/logs:/app/logs
+    networks:
+      - microservices_net
+
+  shipping-service:
+    build: ./shipping-service
+    container_name: shipping-service
+    ports:
+      - "50054:50054"
+    volumes:
+      - ./shipping-service/logs:/app/logs
+    networks:
+      - microservices_net
+
+  mom-service:
+    build:
+      context: .
+      dockerfile: mom-service/Dockerfile
+    container_name: mom-service
+    ports:
+      - "50055:50055"
+    volumes:
+      - ./orders-service/logs:/app/logs
+      - ./mom-service/logs:/app/mom-logs
+    depends_on:
+      - orders-service
+    networks:
+      - microservices_net
+
+
+  client_mom:
+    build: ./client_mom
+    container_name: client-mom
+    depends_on:
+      - mom-service
+    volumes:
+      - ./client_mom/logs:/app/logs
+    networks:
+      - microservices_net
+    restart: always
+
+networks:
+  microservices_net:
+    driver: bridge

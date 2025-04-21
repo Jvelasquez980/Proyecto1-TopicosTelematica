@@ -1,11 +1,11 @@
 module mom-service
 
-go 1.23
+go 1.22.0
 
 toolchain go1.24.2
 
 require (
-	google.golang.org/grpc v1.72.0
+	google.golang.org/grpc v1.71.1
 	google.golang.org/protobuf v1.36.6
 	orders-service v0.0.0-00010101000000-000000000000
 )

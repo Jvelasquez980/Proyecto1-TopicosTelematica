@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package mom;
+option go_package = "/proto;mom";
+
+import "google/protobuf/empty.proto";
+
+service MomService {
+  rpc ProcessAllPending(google.protobuf.Empty) returns (MomSummary);
+}
+
+message MomSummary {
+  int32 reprocessed = 1;
+  int32 failed = 2;
+}
