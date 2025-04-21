@@ -48,23 +48,23 @@ Pasos:
 
 1. Clonar el repositorio:
 
-git clone https://github.com/tu-usuario/proyecto-ordenes.git
-cd proyecto-ordenes
+- git clone https://github.com/tu-usuario/proyecto-ordenes.git
+- cd proyecto-ordenes
 
 ## Generar los archivos .pb.go para cada .proto:
--protoc --go_out=. --go-grpc_out=. proto/orders/orders.proto
--protoc --go_out=. --go-grpc_out=. proto/inventory/inventory.proto
+- protoc --go_out=. --go-grpc_out=. proto/orders/orders.proto
+- protoc --go_out=. --go-grpc_out=. proto/inventory/inventory.proto
 # Y así sucesivamente para payment y shipping
 
 ## Ejecutar cada microservicio, en cuatro terminales diferentes:
--go run main.go  # en orders-service
--go run main.go  # en inventory-service
--go run main.go  # en payment-service
--go run main.go  # en shipping-service
+- go run main.go  # en orders-service
+- go run main.go  # en inventory-service
+- go run main.go  # en payment-service
+- go run main.go  # en shipping-service
 
 ## Ejecutar API Gateway:
--cd api-gateway
--uvicorn main:app --reload --port 8000
+- cd api-gateway
+- uvicorn main:app --reload --port 8000
 
 ## Probar el sistema:
 python client/client_batch.py
