@@ -80,7 +80,7 @@ python client/client_batch.py
   "payment_method": "credit_card"
 }
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 proyecto-ordenes/
 ├── orders-service/
 │   ├── main.go
