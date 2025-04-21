@@ -73,14 +73,14 @@ python client/client_batch.py
 
 # 📝 Ejemplo de payload (POST a /orders)
 
-{
-  "user_id": "u123",
-  "items": [
-    {"product_id": "a1", "quantity": 2},
-    {"product_id": "b2", "quantity": 1}
-  ],
-  "payment_method": "credit_card"
-}
+-{
+-  "user_id": "u123",
+-  "items": [
+-    {"product_id": "a1", "quantity": 2},
+-   {"product_id": "b2", "quantity": 1}
+-  ],
+-  "payment_method": "credit_card"
+-}
 
 ---
 
