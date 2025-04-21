@@ -2657,3 +2657,1394 @@
 2025/04/20 23:28:38.947113 ✅ Pago aprobado.
 2025/04/20 23:28:38.947113 🚚 Enviando orden al servicio de shipping...
 2025/04/20 23:28:38.947113 ✅ Envío creado con ID: f7c2fac8-89d7-4e3f-808e-60c242c35617
+2025/04/20 23:51:37.466028 🚀 OrderService escuchando en el puerto 50051...
+2025/04/21 00:00:30.520001 🧾 [Order] Recibida orden de user_0 con 1 ítems.
+2025/04/21 00:00:30.520001 📦 Contenido completo de la orden:
+2025/04/21 00:00:30.520001 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:00:30.520001 📦 Verificando inventario...
+2025/04/21 00:00:30.542280 ✅ Inventario confirmado.
+2025/04/21 00:00:30.542280 💳 Procesando pago...
+2025/04/21 00:00:30.543316 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:00:30.543837 📝 Orden fallida guardada en pending_orders.json: usuario=user_0, motivo=payment_rejected
+2025/04/21 00:00:33.553186 🧾 [Order] Recibida orden de user_1 con 3 ítems.
+2025/04/21 00:00:33.553186 📦 Contenido completo de la orden:
+2025/04/21 00:00:33.553186 {
+  "user_id": "user_1",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "a1",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:00:33.553186 📦 Verificando inventario...
+2025/04/21 00:00:33.554309 ✅ Inventario confirmado.
+2025/04/21 00:00:33.554309 💳 Procesando pago...
+2025/04/21 00:00:33.554309 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:00:33.554838 📝 Orden fallida guardada en pending_orders.json: usuario=user_1, motivo=payment_rejected
+2025/04/21 00:00:36.573464 🧾 [Order] Recibida orden de user_2 con 2 ítems.
+2025/04/21 00:00:36.573464 📦 Contenido completo de la orden:
+2025/04/21 00:00:36.573464 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "e5",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:00:36.573464 📦 Verificando inventario...
+2025/04/21 00:00:36.573464 ✅ Inventario confirmado.
+2025/04/21 00:00:36.573464 💳 Procesando pago...
+2025/04/21 00:00:36.574680 ✅ Pago aprobado.
+2025/04/21 00:00:36.574680 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:36.575203 ✅ Envío creado con ID: 034d8067-141a-49d7-831e-70a74a439a8a
+2025/04/21 00:00:39.585059 🧾 [Order] Recibida orden de user_3 con 1 ítems.
+2025/04/21 00:00:39.585059 📦 Contenido completo de la orden:
+2025/04/21 00:00:39.585059 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:00:39.585059 📦 Verificando inventario...
+2025/04/21 00:00:39.585059 ✅ Inventario confirmado.
+2025/04/21 00:00:39.585059 💳 Procesando pago...
+2025/04/21 00:00:39.586294 ✅ Pago aprobado.
+2025/04/21 00:00:39.586294 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:39.586818 ✅ Envío creado con ID: c9da9838-2053-46f7-abb2-e2962efd66e6
+2025/04/21 00:00:42.598648 🧾 [Order] Recibida orden de user_4 con 2 ítems.
+2025/04/21 00:00:42.598648 📦 Contenido completo de la orden:
+2025/04/21 00:00:42.599706 {
+  "user_id": "user_4",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 2
+    },
+    {
+      "product_id": "d4",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:00:42.599706 📦 Verificando inventario...
+2025/04/21 00:00:42.599706 ✅ Inventario confirmado.
+2025/04/21 00:00:42.600213 💳 Procesando pago...
+2025/04/21 00:00:42.600238 ✅ Pago aprobado.
+2025/04/21 00:00:42.600238 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:42.600759 ✅ Envío creado con ID: f331f581-995b-40e8-ae0d-f41e9f0d995d
+2025/04/21 00:00:45.617822 🧾 [Order] Recibida orden de user_5 con 3 ítems.
+2025/04/21 00:00:45.617822 📦 Contenido completo de la orden:
+2025/04/21 00:00:45.617822 {
+  "user_id": "user_5",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 2
+    },
+    {
+      "product_id": "a1",
+      "quantity": 5
+    },
+    {
+      "product_id": "a1",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:00:45.617822 📦 Verificando inventario...
+2025/04/21 00:00:45.618380 ✅ Inventario confirmado.
+2025/04/21 00:00:45.618380 💳 Procesando pago...
+2025/04/21 00:00:45.618907 ✅ Pago aprobado.
+2025/04/21 00:00:45.618907 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:45.619438 ✅ Envío creado con ID: 891efad0-6c56-43e8-9436-b637686f2f9c
+2025/04/21 00:00:48.638670 🧾 [Order] Recibida orden de user_6 con 2 ítems.
+2025/04/21 00:00:48.638670 📦 Contenido completo de la orden:
+2025/04/21 00:00:48.638670 {
+  "user_id": "user_6",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "d4",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:00:48.638670 📦 Verificando inventario...
+2025/04/21 00:00:48.639185 ✅ Inventario confirmado.
+2025/04/21 00:00:48.639185 💳 Procesando pago...
+2025/04/21 00:00:48.639692 ✅ Pago aprobado.
+2025/04/21 00:00:48.639706 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:48.639718 ✅ Envío creado con ID: e39ed7c4-56a0-47d2-994c-5731e40ca075
+2025/04/21 00:00:51.650936 🧾 [Order] Recibida orden de user_7 con 1 ítems.
+2025/04/21 00:00:51.650936 📦 Contenido completo de la orden:
+2025/04/21 00:00:51.650936 {
+  "user_id": "user_7",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:00:51.650936 📦 Verificando inventario...
+2025/04/21 00:00:51.651459 ✅ Inventario confirmado.
+2025/04/21 00:00:51.651459 💳 Procesando pago...
+2025/04/21 00:00:51.651981 ✅ Pago aprobado.
+2025/04/21 00:00:51.651981 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:51.651981 ✅ Envío creado con ID: d98ec2f9-705d-4675-ad17-22a1efda6516
+2025/04/21 00:00:54.665581 🧾 [Order] Recibida orden de user_8 con 2 ítems.
+2025/04/21 00:00:54.665581 📦 Contenido completo de la orden:
+2025/04/21 00:00:54.665581 {
+  "user_id": "user_8",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:00:54.665581 📦 Verificando inventario...
+2025/04/21 00:00:54.666102 ✅ Inventario confirmado.
+2025/04/21 00:00:54.666102 💳 Procesando pago...
+2025/04/21 00:00:54.666608 ✅ Pago aprobado.
+2025/04/21 00:00:54.666622 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:54.666639 ✅ Envío creado con ID: 6a8ed517-3209-475c-a486-89c1f7a03380
+2025/04/21 00:00:57.683862 🧾 [Order] Recibida orden de user_9 con 3 ítems.
+2025/04/21 00:00:57.683862 📦 Contenido completo de la orden:
+2025/04/21 00:00:57.683862 {
+  "user_id": "user_9",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 4
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:00:57.683862 📦 Verificando inventario...
+2025/04/21 00:00:57.684391 ✅ Inventario confirmado.
+2025/04/21 00:00:57.684391 💳 Procesando pago...
+2025/04/21 00:00:57.684923 ✅ Pago aprobado.
+2025/04/21 00:00:57.684923 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:00:57.684923 ✅ Envío creado con ID: a0b78837-7bbb-4019-af89-8b62ea461604
+2025/04/21 00:17:28.933954 🧾 [Order] Recibida orden de user_0 con 1 ítems.
+2025/04/21 00:17:28.933954 📦 Contenido completo de la orden:
+2025/04/21 00:17:28.933954 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:17:28.933954 📦 Verificando inventario...
+2025/04/21 00:17:28.933954 ✅ Inventario confirmado.
+2025/04/21 00:17:28.933954 💳 Procesando pago...
+2025/04/21 00:17:28.934484 ✅ Pago aprobado.
+2025/04/21 00:17:28.934484 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:17:28.935008 ✅ Envío creado con ID: 3765bef2-dbf8-49d8-befd-ffb81956da97
+2025/04/21 00:17:28.935514 🧾 [Order] Recibida orden de user_1 con 3 ítems.
+2025/04/21 00:17:28.935535 📦 Contenido completo de la orden:
+2025/04/21 00:17:28.935535 {
+  "user_id": "user_1",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "a1",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:17:28.935535 📦 Verificando inventario...
+2025/04/21 00:17:28.935535 ✅ Inventario confirmado.
+2025/04/21 00:17:28.935535 💳 Procesando pago...
+2025/04/21 00:17:28.935535 ✅ Pago aprobado.
+2025/04/21 00:17:28.935535 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:17:28.936051 ✅ Envío creado con ID: 84e55af2-289a-4462-8575-592864bcb7af
+2025/04/21 00:18:29.203746 🧾 [Order] Recibida orden de user_0 con 3 ítems.
+2025/04/21 00:18:29.203746 📦 Contenido completo de la orden:
+2025/04/21 00:18:29.203746 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 3
+    },
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "c3",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:29.203746 📦 Verificando inventario...
+2025/04/21 00:18:29.204270 ✅ Inventario confirmado.
+2025/04/21 00:18:29.204270 💳 Procesando pago...
+2025/04/21 00:18:29.204799 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:18:29.204799 📝 Orden fallida guardada en pending_orders.json: usuario=user_0, motivo=payment_rejected
+2025/04/21 00:18:32.218206 🧾 [Order] Recibida orden de user_1 con 2 ítems.
+2025/04/21 00:18:32.218206 📦 Contenido completo de la orden:
+2025/04/21 00:18:32.218206 {
+  "user_id": "user_1",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 2
+    },
+    {
+      "product_id": "b2",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:32.218206 📦 Verificando inventario...
+2025/04/21 00:18:32.218728 ✅ Inventario confirmado.
+2025/04/21 00:18:32.218728 💳 Procesando pago...
+2025/04/21 00:18:32.219255 ✅ Pago aprobado.
+2025/04/21 00:18:32.219255 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:32.219255 ✅ Envío creado con ID: d0aa1231-8dc9-4a3e-a3da-0341cd69604d
+2025/04/21 00:18:35.235969 🧾 [Order] Recibida orden de user_2 con 3 ítems.
+2025/04/21 00:18:35.235969 📦 Contenido completo de la orden:
+2025/04/21 00:18:35.235969 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 3
+    },
+    {
+      "product_id": "b2",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:18:35.235969 📦 Verificando inventario...
+2025/04/21 00:18:35.236490 ✅ Inventario confirmado.
+2025/04/21 00:18:35.236490 💳 Procesando pago...
+2025/04/21 00:18:35.237022 ✅ Pago aprobado.
+2025/04/21 00:18:35.237022 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:35.237022 ✅ Envío creado con ID: 47326198-ba1f-4fb4-8c43-4f8b9aeed9f2
+2025/04/21 00:18:38.243173 🧾 [Order] Recibida orden de user_3 con 1 ítems.
+2025/04/21 00:18:38.243173 📦 Contenido completo de la orden:
+2025/04/21 00:18:38.243173 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:38.243173 📦 Verificando inventario...
+2025/04/21 00:18:38.243702 ✅ Inventario confirmado.
+2025/04/21 00:18:38.243702 💳 Procesando pago...
+2025/04/21 00:18:38.244229 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:18:38.244749 📝 Orden fallida guardada en pending_orders.json: usuario=user_3, motivo=payment_rejected
+2025/04/21 00:18:41.260316 🧾 [Order] Recibida orden de user_4 con 3 ítems.
+2025/04/21 00:18:41.260316 📦 Contenido completo de la orden:
+2025/04/21 00:18:41.260316 {
+  "user_id": "user_4",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 2
+    },
+    {
+      "product_id": "e5",
+      "quantity": 4
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:18:41.260316 📦 Verificando inventario...
+2025/04/21 00:18:41.260316 ✅ Inventario confirmado.
+2025/04/21 00:18:41.260316 💳 Procesando pago...
+2025/04/21 00:18:41.261319 ✅ Pago aprobado.
+2025/04/21 00:18:41.261319 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:41.261937 ✅ Envío creado con ID: 29ac8942-f7b7-4267-863b-b8e6be6a2c3f
+2025/04/21 00:18:44.144932 🧾 [Order] Recibida orden de user_0 con 3 ítems.
+2025/04/21 00:18:44.144932 📦 Contenido completo de la orden:
+2025/04/21 00:18:44.144932 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 3
+    },
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "c3",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:44.144932 📦 Verificando inventario...
+2025/04/21 00:18:44.144932 ✅ Inventario confirmado.
+2025/04/21 00:18:44.144932 💳 Procesando pago...
+2025/04/21 00:18:44.145934 ✅ Pago aprobado.
+2025/04/21 00:18:44.145934 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:44.145934 ✅ Envío creado con ID: 12ac80ce-a409-420b-be0e-095ece808a90
+2025/04/21 00:18:44.145934 🧾 [Order] Recibida orden de user_3 con 1 ítems.
+2025/04/21 00:18:44.145934 📦 Contenido completo de la orden:
+2025/04/21 00:18:44.145934 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:44.145934 📦 Verificando inventario...
+2025/04/21 00:18:44.146934 ✅ Inventario confirmado.
+2025/04/21 00:18:44.146934 💳 Procesando pago...
+2025/04/21 00:18:44.146934 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:18:44.146934 📝 Orden fallida guardada en pending_orders.json: usuario=user_3, motivo=payment_rejected
+2025/04/21 00:18:44.281809 🧾 [Order] Recibida orden de user_5 con 3 ítems.
+2025/04/21 00:18:44.281809 📦 Contenido completo de la orden:
+2025/04/21 00:18:44.281809 {
+  "user_id": "user_5",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 3
+    },
+    {
+      "product_id": "b2",
+      "quantity": 2
+    },
+    {
+      "product_id": "c3",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:18:44.281809 📦 Verificando inventario...
+2025/04/21 00:18:44.282335 ✅ Inventario confirmado.
+2025/04/21 00:18:44.282335 💳 Procesando pago...
+2025/04/21 00:18:44.282861 ✅ Pago aprobado.
+2025/04/21 00:18:44.282861 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:44.283384 ✅ Envío creado con ID: fa852ce2-31e2-4599-be6f-ec217ab3354e
+2025/04/21 00:18:47.298007 🧾 [Order] Recibida orden de user_6 con 1 ítems.
+2025/04/21 00:18:47.298007 📦 Contenido completo de la orden:
+2025/04/21 00:18:47.298007 {
+  "user_id": "user_6",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:18:47.298007 📦 Verificando inventario...
+2025/04/21 00:18:47.298529 ✅ Inventario confirmado.
+2025/04/21 00:18:47.298529 💳 Procesando pago...
+2025/04/21 00:18:47.299052 ✅ Pago aprobado.
+2025/04/21 00:18:47.299052 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:47.299052 ✅ Envío creado con ID: 4f08c7f3-e2d2-4730-bb6a-0efcf6a35a83
+2025/04/21 00:18:50.319428 🧾 [Order] Recibida orden de user_7 con 1 ítems.
+2025/04/21 00:18:50.319428 📦 Contenido completo de la orden:
+2025/04/21 00:18:50.319428 {
+  "user_id": "user_7",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:18:50.319428 📦 Verificando inventario...
+2025/04/21 00:18:50.319955 ✅ Inventario confirmado.
+2025/04/21 00:18:50.319955 💳 Procesando pago...
+2025/04/21 00:18:50.320480 ✅ Pago aprobado.
+2025/04/21 00:18:50.320480 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:50.320480 ✅ Envío creado con ID: 114732ff-cb7b-4014-993a-117a534e640e
+2025/04/21 00:18:50.806997 🧾 [Order] Recibida orden de user_3 con 1 ítems.
+2025/04/21 00:18:50.806997 📦 Contenido completo de la orden:
+2025/04/21 00:18:50.806997 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:50.806997 📦 Verificando inventario...
+2025/04/21 00:18:50.807506 ✅ Inventario confirmado.
+2025/04/21 00:18:50.807520 💳 Procesando pago...
+2025/04/21 00:18:50.807532 ✅ Pago aprobado.
+2025/04/21 00:18:50.807532 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:50.808063 ✅ Envío creado con ID: 0c558486-784b-4ccf-935f-f96c139672f6
+2025/04/21 00:18:53.331318 🧾 [Order] Recibida orden de user_8 con 3 ítems.
+2025/04/21 00:18:53.331318 📦 Contenido completo de la orden:
+2025/04/21 00:18:53.331318 {
+  "user_id": "user_8",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 2
+    },
+    {
+      "product_id": "a1",
+      "quantity": 5
+    },
+    {
+      "product_id": "b2",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:18:53.331318 📦 Verificando inventario...
+2025/04/21 00:18:53.331833 ✅ Inventario confirmado.
+2025/04/21 00:18:53.331833 💳 Procesando pago...
+2025/04/21 00:18:53.332356 ✅ Pago aprobado.
+2025/04/21 00:18:53.332356 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:53.332356 ✅ Envío creado con ID: 38202524-82f3-4afd-be95-7edf60b414f0
+2025/04/21 00:18:56.346131 🧾 [Order] Recibida orden de user_9 con 3 ítems.
+2025/04/21 00:18:56.346131 📦 Contenido completo de la orden:
+2025/04/21 00:18:56.346131 {
+  "user_id": "user_9",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 5
+    },
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "a1",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:18:56.346131 📦 Verificando inventario...
+2025/04/21 00:18:56.346652 ✅ Inventario confirmado.
+2025/04/21 00:18:56.346652 💳 Procesando pago...
+2025/04/21 00:18:56.347181 ✅ Pago aprobado.
+2025/04/21 00:18:56.347181 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:18:56.347181 ✅ Envío creado con ID: 9182f674-96e1-41a1-b95d-e92e1fb76d3c
+2025/04/21 00:22:44.841246 🧾 [Order] Recibida orden de user_0 con 3 ítems.
+2025/04/21 00:22:44.841246 📦 Contenido completo de la orden:
+2025/04/21 00:22:44.841246 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:22:44.841246 📦 Verificando inventario...
+2025/04/21 00:22:44.841773 ✅ Inventario confirmado.
+2025/04/21 00:22:44.841773 💳 Procesando pago...
+2025/04/21 00:22:44.842296 ✅ Pago aprobado.
+2025/04/21 00:22:44.842296 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:22:44.842860 ✅ Envío creado con ID: 87fa604c-5a60-445b-8aaa-2df3b45e1ea9
+2025/04/21 00:22:47.850483 🧾 [Order] Recibida orden de user_1 con 2 ítems.
+2025/04/21 00:22:47.850483 📦 Contenido completo de la orden:
+2025/04/21 00:22:47.850483 {
+  "user_id": "user_1",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 5
+    },
+    {
+      "product_id": "e5",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:22:47.850483 📦 Verificando inventario...
+2025/04/21 00:22:47.851002 ✅ Inventario confirmado.
+2025/04/21 00:22:47.851002 💳 Procesando pago...
+2025/04/21 00:22:47.851528 ✅ Pago aprobado.
+2025/04/21 00:22:47.851528 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:22:47.852059 ✅ Envío creado con ID: 3322b177-c891-4f59-a7dc-6eed7f23410e
+2025/04/21 00:22:50.859250 🧾 [Order] Recibida orden de user_2 con 2 ítems.
+2025/04/21 00:22:50.859250 📦 Contenido completo de la orden:
+2025/04/21 00:22:50.859250 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 2
+    },
+    {
+      "product_id": "e5",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:22:50.859250 📦 Verificando inventario...
+2025/04/21 00:22:50.859780 ✅ Inventario confirmado.
+2025/04/21 00:22:50.859780 💳 Procesando pago...
+2025/04/21 00:22:50.860306 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:22:50.860830 📝 Orden fallida guardada en pending_orders.json: usuario=user_2, motivo=payment_rejected
+2025/04/21 00:22:53.870848 🧾 [Order] Recibida orden de user_3 con 3 ítems.
+2025/04/21 00:22:53.870848 📦 Contenido completo de la orden:
+2025/04/21 00:22:53.870848 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "e5",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:22:53.870848 📦 Verificando inventario...
+2025/04/21 00:22:53.871364 ✅ Inventario confirmado.
+2025/04/21 00:22:53.871364 💳 Procesando pago...
+2025/04/21 00:22:53.871933 ✅ Pago aprobado.
+2025/04/21 00:22:53.871933 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:22:53.871933 ✅ Envío creado con ID: 54466115-200e-462a-bef5-2f70f57646af
+2025/04/21 00:22:56.886753 🧾 [Order] Recibida orden de user_4 con 2 ítems.
+2025/04/21 00:22:56.886753 📦 Contenido completo de la orden:
+2025/04/21 00:22:56.886753 {
+  "user_id": "user_4",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 4
+    },
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:22:56.886753 📦 Verificando inventario...
+2025/04/21 00:22:56.887260 ✅ Inventario confirmado.
+2025/04/21 00:22:56.887288 💳 Procesando pago...
+2025/04/21 00:22:56.887811 ✅ Pago aprobado.
+2025/04/21 00:22:56.887823 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:22:56.887823 ✅ Envío creado con ID: 9d0bca84-d335-49e3-86e8-cafb1649006a
+2025/04/21 00:22:57.037535 🧾 [Order] Recibida orden de user_2 con 2 ítems.
+2025/04/21 00:22:57.037535 📦 Contenido completo de la orden:
+2025/04/21 00:22:57.037535 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 2
+    },
+    {
+      "product_id": "e5",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:22:57.037535 📦 Verificando inventario...
+2025/04/21 00:22:57.037535 ✅ Inventario confirmado.
+2025/04/21 00:22:57.037535 💳 Procesando pago...
+2025/04/21 00:22:57.038063 ✅ Pago aprobado.
+2025/04/21 00:22:57.038063 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:22:57.038596 ✅ Envío creado con ID: 586fa567-db8c-4ea8-a3c8-6b749bfe2caf
+2025/04/21 00:22:59.894209 🧾 [Order] Recibida orden de user_5 con 3 ítems.
+2025/04/21 00:22:59.894209 📦 Contenido completo de la orden:
+2025/04/21 00:22:59.894209 {
+  "user_id": "user_5",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 1
+    },
+    {
+      "product_id": "a1",
+      "quantity": 1
+    },
+    {
+      "product_id": "e5",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:22:59.894209 📦 Verificando inventario...
+2025/04/21 00:22:59.894731 ✅ Inventario confirmado.
+2025/04/21 00:22:59.894731 💳 Procesando pago...
+2025/04/21 00:22:59.895259 ✅ Pago aprobado.
+2025/04/21 00:22:59.895259 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:22:59.895790 ✅ Envío creado con ID: f96f3211-eee7-4bf8-a945-c260154ebabd
+2025/04/21 00:23:02.911304 🧾 [Order] Recibida orden de user_6 con 2 ítems.
+2025/04/21 00:23:02.911304 📦 Contenido completo de la orden:
+2025/04/21 00:23:02.911304 {
+  "user_id": "user_6",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 5
+    },
+    {
+      "product_id": "c3",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:23:02.911304 📦 Verificando inventario...
+2025/04/21 00:23:02.911827 ✅ Inventario confirmado.
+2025/04/21 00:23:02.911827 💳 Procesando pago...
+2025/04/21 00:23:02.912356 ✅ Pago aprobado.
+2025/04/21 00:23:02.912356 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:02.912356 ✅ Envío creado con ID: bb47c61e-7dbf-45ff-8b07-d100032aee3d
+2025/04/21 00:23:05.931457 🧾 [Order] Recibida orden de user_7 con 1 ítems.
+2025/04/21 00:23:05.931457 📦 Contenido completo de la orden:
+2025/04/21 00:23:05.931457 {
+  "user_id": "user_7",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:23:05.931457 📦 Verificando inventario...
+2025/04/21 00:23:05.931981 ✅ Inventario confirmado.
+2025/04/21 00:23:05.931981 💳 Procesando pago...
+2025/04/21 00:23:05.932509 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:23:05.932509 📝 Orden fallida guardada en pending_orders.json: usuario=user_7, motivo=payment_rejected
+2025/04/21 00:23:07.043206 🧾 [Order] Recibida orden de user_7 con 1 ítems.
+2025/04/21 00:23:07.043206 📦 Contenido completo de la orden:
+2025/04/21 00:23:07.043206 {
+  "user_id": "user_7",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:23:07.043206 📦 Verificando inventario...
+2025/04/21 00:23:07.043206 ✅ Inventario confirmado.
+2025/04/21 00:23:07.043206 💳 Procesando pago...
+2025/04/21 00:23:07.044205 ✅ Pago aprobado.
+2025/04/21 00:23:07.044205 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:07.044205 ✅ Envío creado con ID: 50378c00-2ba7-4506-973b-00355355473b
+2025/04/21 00:23:08.947961 🧾 [Order] Recibida orden de user_8 con 1 ítems.
+2025/04/21 00:23:08.947961 📦 Contenido completo de la orden:
+2025/04/21 00:23:08.947961 {
+  "user_id": "user_8",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:23:08.947961 📦 Verificando inventario...
+2025/04/21 00:23:08.948486 ✅ Inventario confirmado.
+2025/04/21 00:23:08.948486 💳 Procesando pago...
+2025/04/21 00:23:08.949015 ✅ Pago aprobado.
+2025/04/21 00:23:08.949015 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:08.949015 ✅ Envío creado con ID: 8651edfa-373e-496c-870a-670d21a87fbc
+2025/04/21 00:23:11.955850 🧾 [Order] Recibida orden de user_9 con 1 ítems.
+2025/04/21 00:23:11.955850 📦 Contenido completo de la orden:
+2025/04/21 00:23:11.955850 {
+  "user_id": "user_9",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:23:11.955850 📦 Verificando inventario...
+2025/04/21 00:23:11.956378 ✅ Inventario confirmado.
+2025/04/21 00:23:11.956378 💳 Procesando pago...
+2025/04/21 00:23:11.956905 ✅ Pago aprobado.
+2025/04/21 00:23:11.956905 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:11.957433 ✅ Envío creado con ID: 1f21a6e1-0c3e-44e4-929a-cc0cfd42f5f5
+2025/04/21 00:23:38.041820 🧾 [Order] Recibida orden de user_0 con 1 ítems.
+2025/04/21 00:23:38.041820 📦 Contenido completo de la orden:
+2025/04/21 00:23:38.041820 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:23:38.041820 📦 Verificando inventario...
+2025/04/21 00:23:38.042344 ✅ Inventario confirmado.
+2025/04/21 00:23:38.042344 💳 Procesando pago...
+2025/04/21 00:23:38.042858 ✅ Pago aprobado.
+2025/04/21 00:23:38.042858 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:38.042858 ✅ Envío creado con ID: 0e10507d-9101-4d3d-856a-0aea2a22ee6d
+2025/04/21 00:23:41.059169 🧾 [Order] Recibida orden de user_1 con 2 ítems.
+2025/04/21 00:23:41.059169 📦 Contenido completo de la orden:
+2025/04/21 00:23:41.059169 {
+  "user_id": "user_1",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 2
+    },
+    {
+      "product_id": "d4",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:23:41.059169 📦 Verificando inventario...
+2025/04/21 00:23:41.059681 ✅ Inventario confirmado.
+2025/04/21 00:23:41.059681 💳 Procesando pago...
+2025/04/21 00:23:41.060208 ✅ Pago aprobado.
+2025/04/21 00:23:41.060208 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:41.060208 ✅ Envío creado con ID: 540dec1d-483e-4f23-a610-3ac72beedeee
+2025/04/21 00:23:44.076043 🧾 [Order] Recibida orden de user_2 con 1 ítems.
+2025/04/21 00:23:44.076043 📦 Contenido completo de la orden:
+2025/04/21 00:23:44.076043 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:23:44.076043 📦 Verificando inventario...
+2025/04/21 00:23:44.076557 ✅ Inventario confirmado.
+2025/04/21 00:23:44.076557 💳 Procesando pago...
+2025/04/21 00:23:44.077078 ✅ Pago aprobado.
+2025/04/21 00:23:44.077078 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:44.077078 ✅ Envío creado con ID: 66204f80-eab9-4fb9-a75a-95fc85ecda84
+2025/04/21 00:23:47.083061 🧾 [Order] Recibida orden de user_3 con 3 ítems.
+2025/04/21 00:23:47.083061 📦 Contenido completo de la orden:
+2025/04/21 00:23:47.083061 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 2
+    },
+    {
+      "product_id": "a1",
+      "quantity": 2
+    },
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:23:47.083061 📦 Verificando inventario...
+2025/04/21 00:23:47.083588 ✅ Inventario confirmado.
+2025/04/21 00:23:47.083588 💳 Procesando pago...
+2025/04/21 00:23:47.084105 ✅ Pago aprobado.
+2025/04/21 00:23:47.084105 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:47.084635 ✅ Envío creado con ID: 471f5f2d-b491-4d16-b872-dc980a5e0a02
+2025/04/21 00:23:50.101261 🧾 [Order] Recibida orden de user_4 con 1 ítems.
+2025/04/21 00:23:50.101261 📦 Contenido completo de la orden:
+2025/04/21 00:23:50.101261 {
+  "user_id": "user_4",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:23:50.101261 📦 Verificando inventario...
+2025/04/21 00:23:50.101781 ✅ Inventario confirmado.
+2025/04/21 00:23:50.101781 💳 Procesando pago...
+2025/04/21 00:23:50.102308 ✅ Pago aprobado.
+2025/04/21 00:23:50.102308 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:50.102308 ✅ Envío creado con ID: ba0e6828-a301-4a7e-bcc2-39836720d62e
+2025/04/21 00:23:53.109468 🧾 [Order] Recibida orden de user_5 con 1 ítems.
+2025/04/21 00:23:53.109468 📦 Contenido completo de la orden:
+2025/04/21 00:23:53.109468 {
+  "user_id": "user_5",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:23:53.109468 📦 Verificando inventario...
+2025/04/21 00:23:53.109986 ✅ Inventario confirmado.
+2025/04/21 00:23:53.109986 💳 Procesando pago...
+2025/04/21 00:23:53.110520 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:23:53.110520 📝 Orden fallida guardada en pending_orders.json: usuario=user_5, motivo=payment_rejected
+2025/04/21 00:23:54.287738 🧾 [Order] Recibida orden de user_5 con 1 ítems.
+2025/04/21 00:23:54.287738 📦 Contenido completo de la orden:
+2025/04/21 00:23:54.287738 {
+  "user_id": "user_5",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:23:54.287738 📦 Verificando inventario...
+2025/04/21 00:23:54.287738 ✅ Inventario confirmado.
+2025/04/21 00:23:54.287738 💳 Procesando pago...
+2025/04/21 00:23:54.288261 ✅ Pago aprobado.
+2025/04/21 00:23:54.288261 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:54.288784 ✅ Envío creado con ID: df692ddb-7157-47a3-bb9c-f134fac1384a
+2025/04/21 00:23:56.123911 🧾 [Order] Recibida orden de user_6 con 2 ítems.
+2025/04/21 00:23:56.123911 📦 Contenido completo de la orden:
+2025/04/21 00:23:56.123911 {
+  "user_id": "user_6",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 1
+    },
+    {
+      "product_id": "b2",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:23:56.123911 📦 Verificando inventario...
+2025/04/21 00:23:56.124435 ✅ Inventario confirmado.
+2025/04/21 00:23:56.124435 💳 Procesando pago...
+2025/04/21 00:23:56.124966 ✅ Pago aprobado.
+2025/04/21 00:23:56.124966 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:56.124966 ✅ Envío creado con ID: bfe3a9c1-a332-4317-8e52-dead78a14b15
+2025/04/21 00:23:59.137498 🧾 [Order] Recibida orden de user_7 con 1 ítems.
+2025/04/21 00:23:59.137498 📦 Contenido completo de la orden:
+2025/04/21 00:23:59.137498 {
+  "user_id": "user_7",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:23:59.137498 📦 Verificando inventario...
+2025/04/21 00:23:59.138025 ✅ Inventario confirmado.
+2025/04/21 00:23:59.138025 💳 Procesando pago...
+2025/04/21 00:23:59.138551 ✅ Pago aprobado.
+2025/04/21 00:23:59.138551 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:23:59.138551 ✅ Envío creado con ID: c47e1b34-6570-4349-a679-4d9c6a3cd590
+2025/04/21 00:24:02.148037 🧾 [Order] Recibida orden de user_8 con 2 ítems.
+2025/04/21 00:24:02.148037 📦 Contenido completo de la orden:
+2025/04/21 00:24:02.148037 {
+  "user_id": "user_8",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 4
+    },
+    {
+      "product_id": "b2",
+      "quantity": 2
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:02.148037 📦 Verificando inventario...
+2025/04/21 00:24:02.148564 ✅ Inventario confirmado.
+2025/04/21 00:24:02.148564 💳 Procesando pago...
+2025/04/21 00:24:02.149088 ✅ Pago aprobado.
+2025/04/21 00:24:02.149088 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:02.149088 ✅ Envío creado con ID: 394757e7-c441-49fa-a21b-27d8b95fc79e
+2025/04/21 00:24:05.167255 🧾 [Order] Recibida orden de user_9 con 3 ítems.
+2025/04/21 00:24:05.167255 📦 Contenido completo de la orden:
+2025/04/21 00:24:05.167255 {
+  "user_id": "user_9",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "b2",
+      "quantity": 2
+    },
+    {
+      "product_id": "d4",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:05.167255 📦 Verificando inventario...
+2025/04/21 00:24:05.167786 ✅ Inventario confirmado.
+2025/04/21 00:24:05.167786 💳 Procesando pago...
+2025/04/21 00:24:05.168314 ✅ Pago aprobado.
+2025/04/21 00:24:05.168314 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:05.168840 ✅ Envío creado con ID: d68279e5-29cc-40f2-895c-f01668900671
+2025/04/21 00:24:21.813899 🧾 [Order] Recibida orden de user_0 con 1 ítems.
+2025/04/21 00:24:21.813899 📦 Contenido completo de la orden:
+2025/04/21 00:24:21.813899 {
+  "user_id": "user_0",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:24:21.813899 📦 Verificando inventario...
+2025/04/21 00:24:21.814416 ✅ Inventario confirmado.
+2025/04/21 00:24:21.814416 💳 Procesando pago...
+2025/04/21 00:24:21.814945 ✅ Pago aprobado.
+2025/04/21 00:24:21.814945 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:21.814945 ✅ Envío creado con ID: defc1a00-8e98-46f5-b52f-a159d4223849
+2025/04/21 00:24:24.822488 🧾 [Order] Recibida orden de user_1 con 2 ítems.
+2025/04/21 00:24:24.822488 📦 Contenido completo de la orden:
+2025/04/21 00:24:24.822488 {
+  "user_id": "user_1",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 4
+    },
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:24.822488 📦 Verificando inventario...
+2025/04/21 00:24:24.823014 ✅ Inventario confirmado.
+2025/04/21 00:24:24.823014 💳 Procesando pago...
+2025/04/21 00:24:24.823540 ✅ Pago aprobado.
+2025/04/21 00:24:24.823540 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:24.823540 ✅ Envío creado con ID: a837e61f-a2c6-40aa-b00a-f695ffff7474
+2025/04/21 00:24:27.835006 🧾 [Order] Recibida orden de user_2 con 2 ítems.
+2025/04/21 00:24:27.835006 📦 Contenido completo de la orden:
+2025/04/21 00:24:27.835006 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "b2",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:24:27.835006 📦 Verificando inventario...
+2025/04/21 00:24:27.835521 ✅ Inventario confirmado.
+2025/04/21 00:24:27.835521 💳 Procesando pago...
+2025/04/21 00:24:27.836040 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:24:27.836559 📝 Orden fallida guardada en pending_orders.json: usuario=user_2, motivo=payment_rejected
+2025/04/21 00:24:30.851060 🧾 [Order] Recibida orden de user_3 con 1 ítems.
+2025/04/21 00:24:30.851060 📦 Contenido completo de la orden:
+2025/04/21 00:24:30.851060 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:30.851060 📦 Verificando inventario...
+2025/04/21 00:24:30.851589 ✅ Inventario confirmado.
+2025/04/21 00:24:30.851589 💳 Procesando pago...
+2025/04/21 00:24:30.852117 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:24:30.852117 📝 Orden fallida guardada en pending_orders.json: usuario=user_3, motivo=payment_rejected
+2025/04/21 00:24:33.872963 🧾 [Order] Recibida orden de user_4 con 2 ítems.
+2025/04/21 00:24:33.873471 📦 Contenido completo de la orden:
+2025/04/21 00:24:33.873504 {
+  "user_id": "user_4",
+  "items": [
+    {
+      "product_id": "b2",
+      "quantity": 5
+    },
+    {
+      "product_id": "c3",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:24:33.873504 📦 Verificando inventario...
+2025/04/21 00:24:33.873524 ✅ Inventario confirmado.
+2025/04/21 00:24:33.873524 💳 Procesando pago...
+2025/04/21 00:24:33.874569 ✅ Pago aprobado.
+2025/04/21 00:24:33.874594 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:33.874594 ✅ Envío creado con ID: a0d0d732-cd9c-498a-8d3e-aaba3d7e67eb
+2025/04/21 00:24:34.303744 🧾 [Order] Recibida orden de user_2 con 2 ítems.
+2025/04/21 00:24:34.303744 📦 Contenido completo de la orden:
+2025/04/21 00:24:34.303744 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "b2",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:24:34.303744 📦 Verificando inventario...
+2025/04/21 00:24:34.304270 ✅ Inventario confirmado.
+2025/04/21 00:24:34.304270 💳 Procesando pago...
+2025/04/21 00:24:34.304270 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:24:34.304795 📝 Orden fallida guardada en pending_orders.json: usuario=user_2, motivo=payment_rejected
+2025/04/21 00:24:34.305327 🧾 [Order] Recibida orden de user_3 con 1 ítems.
+2025/04/21 00:24:34.305327 📦 Contenido completo de la orden:
+2025/04/21 00:24:34.305327 {
+  "user_id": "user_3",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:34.305327 📦 Verificando inventario...
+2025/04/21 00:24:34.305327 ✅ Inventario confirmado.
+2025/04/21 00:24:34.305327 💳 Procesando pago...
+2025/04/21 00:24:34.305853 ✅ Pago aprobado.
+2025/04/21 00:24:34.305853 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:34.305853 ✅ Envío creado con ID: e8c29314-7b29-4486-8c5c-6a4d39a2938a
+2025/04/21 00:24:36.894958 🧾 [Order] Recibida orden de user_5 con 1 ítems.
+2025/04/21 00:24:36.894958 📦 Contenido completo de la orden:
+2025/04/21 00:24:36.894958 {
+  "user_id": "user_5",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "paypal"
+}
+2025/04/21 00:24:36.894958 📦 Verificando inventario...
+2025/04/21 00:24:36.895486 ✅ Inventario confirmado.
+2025/04/21 00:24:36.895486 💳 Procesando pago...
+2025/04/21 00:24:36.896007 ✅ Pago aprobado.
+2025/04/21 00:24:36.896007 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:36.896007 ✅ Envío creado con ID: d1f7bcf6-c124-465e-ae01-556393d2ae97
+2025/04/21 00:24:39.901650 🧾 [Order] Recibida orden de user_6 con 3 ítems.
+2025/04/21 00:24:39.901650 📦 Contenido completo de la orden:
+2025/04/21 00:24:39.901650 {
+  "user_id": "user_6",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 2
+    },
+    {
+      "product_id": "c3",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:24:39.901650 📦 Verificando inventario...
+2025/04/21 00:24:39.902650 ✅ Inventario confirmado.
+2025/04/21 00:24:39.902650 💳 Procesando pago...
+2025/04/21 00:24:39.902650 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:24:39.903284 📝 Orden fallida guardada en pending_orders.json: usuario=user_6, motivo=payment_rejected
+2025/04/21 00:24:42.916496 🧾 [Order] Recibida orden de user_7 con 2 ítems.
+2025/04/21 00:24:42.916496 📦 Contenido completo de la orden:
+2025/04/21 00:24:42.916496 {
+  "user_id": "user_7",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 1
+    },
+    {
+      "product_id": "b2",
+      "quantity": 5
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:42.916496 📦 Verificando inventario...
+2025/04/21 00:24:42.917011 ✅ Inventario confirmado.
+2025/04/21 00:24:42.917011 💳 Procesando pago...
+2025/04/21 00:24:42.917541 ✅ Pago aprobado.
+2025/04/21 00:24:42.917541 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:42.917541 ✅ Envío creado con ID: f79d741e-7527-4920-bebf-75a2e7971a60
+2025/04/21 00:24:44.317541 🧾 [Order] Recibida orden de user_2 con 2 ítems.
+2025/04/21 00:24:44.317541 📦 Contenido completo de la orden:
+2025/04/21 00:24:44.317541 {
+  "user_id": "user_2",
+  "items": [
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "b2",
+      "quantity": 3
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:24:44.317541 📦 Verificando inventario...
+2025/04/21 00:24:44.317541 ✅ Inventario confirmado.
+2025/04/21 00:24:44.317541 💳 Procesando pago...
+2025/04/21 00:24:44.318070 ✅ Pago aprobado.
+2025/04/21 00:24:44.318070 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:44.318595 ✅ Envío creado con ID: 758c3b9d-ff87-4c33-8a64-ee08dedf65f2
+2025/04/21 00:24:44.318595 🧾 [Order] Recibida orden de user_6 con 3 ítems.
+2025/04/21 00:24:44.318595 📦 Contenido completo de la orden:
+2025/04/21 00:24:44.318595 {
+  "user_id": "user_6",
+  "items": [
+    {
+      "product_id": "c3",
+      "quantity": 2
+    },
+    {
+      "product_id": "c3",
+      "quantity": 5
+    },
+    {
+      "product_id": "d4",
+      "quantity": 4
+    }
+  ],
+  "payment_method": "credit_card"
+}
+2025/04/21 00:24:44.318595 📦 Verificando inventario...
+2025/04/21 00:24:44.319118 ✅ Inventario confirmado.
+2025/04/21 00:24:44.319118 💳 Procesando pago...
+2025/04/21 00:24:44.319118 ✅ Pago aprobado.
+2025/04/21 00:24:44.319118 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:44.319645 ✅ Envío creado con ID: f1ed242f-a7c8-4b7c-bf96-1695891f1827
+2025/04/21 00:24:45.932310 🧾 [Order] Recibida orden de user_8 con 3 ítems.
+2025/04/21 00:24:45.932310 📦 Contenido completo de la orden:
+2025/04/21 00:24:45.932310 {
+  "user_id": "user_8",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:45.932310 📦 Verificando inventario...
+2025/04/21 00:24:45.933278 ✅ Inventario confirmado.
+2025/04/21 00:24:45.933278 💳 Procesando pago...
+2025/04/21 00:24:45.933801 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:24:45.933801 📝 Orden fallida guardada en pending_orders.json: usuario=user_8, motivo=payment_rejected
+2025/04/21 00:24:48.955753 🧾 [Order] Recibida orden de user_9 con 3 ítems.
+2025/04/21 00:24:48.955753 📦 Contenido completo de la orden:
+2025/04/21 00:24:48.955753 {
+  "user_id": "user_9",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:48.955753 📦 Verificando inventario...
+2025/04/21 00:24:48.956278 ✅ Inventario confirmado.
+2025/04/21 00:24:48.956278 💳 Procesando pago...
+2025/04/21 00:24:48.956808 ❌ Pago rechazado. Cancelando orden.
+2025/04/21 00:24:48.956808 📝 Orden fallida guardada en pending_orders.json: usuario=user_9, motivo=payment_rejected
+2025/04/21 00:24:54.325208 🧾 [Order] Recibida orden de user_8 con 3 ítems.
+2025/04/21 00:24:54.325208 📦 Contenido completo de la orden:
+2025/04/21 00:24:54.325208 {
+  "user_id": "user_8",
+  "items": [
+    {
+      "product_id": "d4",
+      "quantity": 5
+    },
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:54.325208 📦 Verificando inventario...
+2025/04/21 00:24:54.325208 ✅ Inventario confirmado.
+2025/04/21 00:24:54.325208 💳 Procesando pago...
+2025/04/21 00:24:54.325742 ✅ Pago aprobado.
+2025/04/21 00:24:54.325742 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:54.326283 ✅ Envío creado con ID: f504d4fe-a9fb-4138-b26c-546254ffebcb
+2025/04/21 00:24:54.326283 🧾 [Order] Recibida orden de user_9 con 3 ítems.
+2025/04/21 00:24:54.326283 📦 Contenido completo de la orden:
+2025/04/21 00:24:54.326283 {
+  "user_id": "user_9",
+  "items": [
+    {
+      "product_id": "e5",
+      "quantity": 1
+    },
+    {
+      "product_id": "a1",
+      "quantity": 4
+    },
+    {
+      "product_id": "c3",
+      "quantity": 1
+    }
+  ],
+  "payment_method": "debit_card"
+}
+2025/04/21 00:24:54.326283 📦 Verificando inventario...
+2025/04/21 00:24:54.326805 ✅ Inventario confirmado.
+2025/04/21 00:24:54.326805 💳 Procesando pago...
+2025/04/21 00:24:54.326805 ✅ Pago aprobado.
+2025/04/21 00:24:54.326805 🚚 Enviando orden al servicio de shipping...
+2025/04/21 00:24:54.327328 ✅ Envío creado con ID: 639818d9-533f-459e-86c7-a0de3571373f
