@@ -68,7 +68,9 @@ uvicorn main:app --reload --port 8000
 
 ## Probar el sistema:
 python client/client_batch.py
+
 ---
+
 # 📝 Ejemplo de payload (POST a /orders)
 
 {
@@ -79,7 +81,9 @@ python client/client_batch.py
   ],
   "payment_method": "credit_card"
 }
+
 ---
+
 # 📁 Estructura del Proyecto
 proyecto-ordenes/
 ├── orders-service/
