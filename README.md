@@ -84,20 +84,4 @@ python client/client_batch.py
 
 ---
 
-# 📁 Estructura del Proyecto
-proyecto-ordenes/
-├── orders-service/
-│   ├── main.go
-│   ├── proto/orders.proto
-│   └── logs/orders.log
-├── inventory-service/
-│   ├── main.go
-│   ├── proto/inventory.proto
-│   └── logs/inventory.log
-├── payment-service/
-├── shipping-service/
-├── api-gateway/
-│   └── main.py (FastAPI)
-├── client/
-│   └── client_batch.py
-└── README.md
+
